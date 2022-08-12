@@ -1,0 +1,18 @@
+.chessboxWhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5%;
+  height: 12.5%;
+  border: 0.5px solid black;
+  background: $whiteSquare;
+}
+.chessboxGreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5%;
+  height: 12.5%;
+  border: 0.5px solid black;
+  background: $greenSquare;
+}

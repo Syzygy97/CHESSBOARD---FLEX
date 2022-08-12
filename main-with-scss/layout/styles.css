@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#content-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: darkgoldenrod;
+}
+
+.chessboard {
+  display: flex;
+  flex-flow: row wrap;
+  width: 640px;
+  height: 640px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 8px solid rgb(0, 0, 0);
+  border-radius: 8px;
+}
+
+.chessboxWhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5%;
+  height: 12.5%;
+  border: 0.5px solid black;
+  background: antiquewhite;
+}
+
+.chessboxGreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5%;
+  height: 12.5%;
+  border: 0.5px solid black;
+  background: rgb(33, 131, 122);
+}
+
+.b-rook {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.b-knight {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.b-bishop {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.b-queen {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.b-king {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.b-pawn {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.w-rook {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.w-knight {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.w-bishop {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.w-queen {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.w-king {
+  font-size: 3.7em;
+  text-align: center;
+}
+
+.w-pawn {
+  font-size: 3.7em;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
